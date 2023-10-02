@@ -1,8 +1,11 @@
+import LawyerProfile from "./components/LawyerProfile";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
   <>
-  <h1 className="text-red-500">Hello</h1>
+  <Navbar></Navbar>
+  <LawyerProfile/>
   </>
   );
 }
